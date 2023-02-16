@@ -19,13 +19,13 @@ and the [supplementary video](https://youtu.be/36rPTkhiJTM).
 
 ## Installation
 
-The code uses **Python 3.7** and it is tested on PyTorch 1.4.
+The code uses **Python 3.7, CUDA 11.7, CuDNN 8.5**
 
 ### Setup FLAME PyTorch Virtual Environment
 
 ```
-python3.7 -m venv <your_home_dir>/.virtualenvs/FLAME_PyTorch
-source <your_home_dir>/.virtualenvs/FLAME_PyTorch/bin/activate
+conda create -n flame_env
+conda activate flame_env
 ```
 ### Clone the project and install requirements
 
