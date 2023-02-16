@@ -30,7 +30,7 @@ conda activate flame_env
 ### Clone the project and install requirements
 
 ```
-git clone https://github.com/soubhiksanyal/FLAME_PyTorch
+git clone https://github.com/BluzOtter/Flame_pytorch_new
 cd FLAME_PyTorch
 pip install -r requirements.txt
 mkdir model
